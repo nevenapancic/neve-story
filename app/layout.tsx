@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Neve Story | A Memoir',
-  description: 'Your morning read with coffee instead of scrolling. A story about bravery, resilience, and never giving up.',
+  title: "Neve's Story | A Memoir",
+  description: 'A story about grit, resilience, and a girl figuring it out. From Serbia to Amsterdam, from making rice to writing code.',
 }
 
 export default function RootLayout({
