@@ -1,8 +1,12 @@
+'use client';
+
 export default function Home() {
   return (
     <main>
       <section className="hero">
         <h1>your morning read with coffee instead of scrolling, you wont regret</h1>
+        <p style={{ margin: '20px 0', fontSize: '1.1rem', maxWidth: '600px', lineHeight: '1.6' }}>I am not a content writer, but give me a chance and read it. trust me its written with soul and literally the way I talk - natural, catchy and fun. this is Neve&apos;s story, and she has a plus one - her doggo Zoran</p>
+        <img src="/images/dog zoran.png" alt="Zoran the rescue dog" style={{ width: '150px', borderRadius: '50%', margin: '10px auto', filter: 'grayscale(100%)', transition: 'filter 0.3s' }} onMouseOver={(e) => e.currentTarget.style.filter = 'grayscale(0%)'} onMouseOut={(e) => e.currentTarget.style.filter = 'grayscale(100%)'} />
         <span className="tap">actually you do have to scroll down hihi</span>
         <div style={{ marginTop: '40px', display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
           <a href="/Nevena_Pancic_CV_SE.pdf" download className="btn">if you will scan this without soul, just facts for AI, here is CV</a>
@@ -159,6 +163,7 @@ export default function Home() {
 
       <footer className="footer">
         <div className="name">Neve</div>
+        <img src="/images/dog zoran.png" alt="Zoran the rescue dog" style={{ width: '200px', borderRadius: '50%', margin: '20px auto', filter: 'grayscale(100%)', transition: 'filter 0.3s' }} onMouseOver={(e) => e.currentTarget.style.filter = 'grayscale(0%)'} onMouseOut={(e) => e.currentTarget.style.filter = 'grayscale(100%)'} />
         <p>
           Thanks for reading hope you had lovely coffee and your day can start, and maybe just maybe in some time, I will be there in office with you appreciating the chance you give me. Oh yeah one more thing, I have a rescue small 6.5kg doggo called Zoran, from Serbia and he loves cuddles and if you offer pet friendly office, I am sure he will be a good therapy doggo for the team, cause you know we both come from Serbia and appreciate chances. Hihihihii
         </p>
